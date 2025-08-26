@@ -57,4 +57,11 @@
 			</plugin>
 		</plugins>
 	</build>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>trial1prtgp-myrepo-libs-release-local-releases</name>
+        <url>https://trial1prtgp.jfrog.io/artifactory/myrepo-libs-release-local</url>
+    </repository>
+</distributionManagement>
 </project>
